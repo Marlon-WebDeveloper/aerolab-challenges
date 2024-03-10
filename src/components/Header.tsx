@@ -1,5 +1,5 @@
 import React, {useContext, useState} from "react";
-import {Link, useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 import Logo from "../assets/icons/aerolab-logo-2.svg";
 import AeroLogo from "../assets/icons/aeropay-1.svg";

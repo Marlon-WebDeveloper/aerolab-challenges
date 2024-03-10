@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import Toastify from "toastify-js";
 
 import "toastify-js/src/toastify.css";
@@ -6,7 +6,7 @@ import Icon from "../assets/icons/aeropay-1.svg";
 import {User} from "~/App/App";
 
 import {Product} from "./Products";
-import RedeemHistory from "./RedeemHistory";
+
 type PropsType = {
   imageUrl: string;
   title: string;
@@ -32,10 +32,6 @@ const ProductCard = ({imageUrl, title, price, category, points, setuser, user}: 
       url: imageUrl,
     },
   };
-
-  useEffect(() => {
-    console.log(user.redeemHistory);
-  }, [user.redeemHistory]);
 
   return (
     <article className="flex flex-col items-center w-[250px]">

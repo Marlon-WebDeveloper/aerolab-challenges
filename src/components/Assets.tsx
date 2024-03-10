@@ -3,7 +3,6 @@ import React from "react";
 import Image1 from "../assets/illustrations/walkthroug-1-responsive.png";
 import Image2 from "../assets/illustrations/walkthroug-2-responsive.png";
 import Image3 from "../assets/illustrations/walkthroug-3-responsive.png";
-import Wave from "../assets/illustrations/single-wave-pattern.svg";
 import w1 from "../assets/icons/walkthrough-1.svg";
 import w3 from "../assets/icons/walkthrough-2.svg";
 import w2 from "../assets/icons/walkthrough-3.svg";
